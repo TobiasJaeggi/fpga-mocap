@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "visionAddOn")(type "KiCad")(uri "${KIPRJMOD}/visionAddOn.kicad_sym")(options "")(descr ""))
+  (lib (name "asdf")(type "KiCad")(uri "${KIPRJMOD}/D3086-98/D3086-98.kicad_sym")(options "")(descr ""))
+)

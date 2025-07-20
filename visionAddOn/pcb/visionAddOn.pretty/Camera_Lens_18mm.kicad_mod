@@ -1,0 +1,249 @@
+(footprint "Camera_Lens_18mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5 -8.723976 0)
+		(layer "F.SilkS")
+		(uuid "7c831a1c-025f-4554-b507-b406d065e0c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Camera_Lens_18mm"
+		(at -0.05 8.15 0)
+		(layer "F.Fab")
+		(uuid "5dff77db-09b3-4b15-b47c-0dc7e43edd62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04ae26ae-ef4e-49f7-849e-f9765f7edae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6f7b0e0-8eb0-4e9f-b1b7-0518357f2386")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e7ee333-9ff3-4850-aa0f-80c187cd4e38")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9 -2)
+		(end -7.25 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "55fb25a5-e582-4bc0-afe3-7ed8e7c225fa")
+	)
+	(fp_line
+		(start -9 2)
+		(end -7.25 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e3385da9-ad56-49eb-83e5-2f303abb8cfe")
+	)
+	(fp_line
+		(start -7.25 -7.25)
+		(end 7.25 -7.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "700da3a4-eba5-4e84-bf95-5d742a255bfa")
+	)
+	(fp_line
+		(start -7.25 7.25)
+		(end -7.25 -7.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "35494380-125a-45ba-b691-5fc58d5c3fc2")
+	)
+	(fp_line
+		(start 7.25 -7.25)
+		(end 7.25 7.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "bd8dd151-5df6-457a-aeeb-080c9438e72d")
+	)
+	(fp_line
+		(start 7.25 7.25)
+		(end -7.25 7.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "526385a5-b981-4c07-a672-5a0f8a350136")
+	)
+	(fp_line
+		(start 9 -2)
+		(end 7.25 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d8edeb10-71c0-4836-bf30-2f298356719e")
+	)
+	(fp_line
+		(start 9 2)
+		(end 7.25 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5acacd12-e752-446f-8662-914ca31784a9")
+	)
+	(fp_arc
+		(start -9 2)
+		(mid -11 0)
+		(end -9 -2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "97592ea6-7a57-4ee8-9d8b-b2e7a81ca3ee")
+	)
+	(fp_arc
+		(start 9 -2)
+		(mid 11 0)
+		(end 9 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "346ff67b-3029-4050-b152-ff0dfef55c27")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "406991c2-834c-466e-977d-3de053ed7f55")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 6 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "10b195bb-49ac-40d2-aff3-7f631905b1b8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 7.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "bfcd888f-f089-4252-8de7-660dfaa00453")
+	)
+	(fp_circle
+		(center -9 0)
+		(end -7.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "fe795e01-3944-4088-a0a5-d25620f5f0ce")
+	)
+	(fp_circle
+		(center 9 0)
+		(end 10.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "b3e230a8-1e1b-46b8-83bf-bf1cfc62e9b2")
+	)
+	(pad "1" thru_hole circle
+		(at 9 0)
+		(size 1.4 1.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4425f0a-00cc-4193-93ad-a8e709b4f8b7")
+	)
+	(pad "2" thru_hole circle
+		(at -9 0)
+		(size 1.4 1.4)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0fd0c31-0086-4b45-8f2d-87599d087087")
+	)
+	(model "${KIPRJMOD}/lib/3d-models/Camera_Lens.step"
+		(offset
+			(xyz 0 0 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

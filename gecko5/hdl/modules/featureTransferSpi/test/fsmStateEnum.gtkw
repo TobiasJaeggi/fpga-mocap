@@ -1,0 +1,12 @@
+0 Idle
+1 SendFrameCountWaitReady
+2 SendFrameCountPulseValid
+3 SendLengthWaitReady
+4 SendLengthPulseValid
+5 SendByteWaitReady
+6 SendBytePulseValid
+7 CheckBytesRemaining
+8 IncrementAddress
+9 CheckFeaturesRemaining
+10 TransferDone
+11 Error

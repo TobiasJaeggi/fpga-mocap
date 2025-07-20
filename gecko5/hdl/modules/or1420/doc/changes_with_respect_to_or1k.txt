@@ -1,0 +1,24 @@
+The or1400 has some important changes with respect to the OR1k architectural
+document, namely:
+
+ 1) The special purpose registers are incompatible implemented (see sprs_implemented.txt).
+ 2) Some intructions are not implemented (see instructions.ods).
+ 3) To reduce memory footprint the exceptions are remodelled as:
+    $X0000000 -> Magic number
+    $X0000008 -> Instruction cache error
+    $X0000010 -> Data cache error
+    $X0000018 -> IRQ exception
+    $X0000020 -> Invalid instruction exception
+    $F0000028 -> System Call
+    $X0000030 -> Reset vector
+    Where: X = F by default for a BIOS and can be changed to 0 by invoking the
+               asm volatile ("l.jumps") instruction in c
+               that jumps to $0000030 and sets the exception area to $00000000.
+ 4) Added a NIOSII compatible custom instruction
+ 5) Due to the I$ implementation all jump/branch instructions have a penalty of 1
+    extra NOP instruction (read to comply to the single delay slot of the OR1k
+    one NOP is inserted; if wanted one could modify the compiler to take into
+    account two delay slots, similar to the more modern MIPS processors, and the
+    NOP insertion can be removed).
+ 6) The bus is a simple propriatary one.
+ 7) The overflow-bit is supressed

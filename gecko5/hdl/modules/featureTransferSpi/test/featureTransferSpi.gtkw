@@ -1,0 +1,89 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Thu May  1 14:54:04 2025
+[*]
+[dumpfile] "/home/tobi/workspace/blobDetector/modules/featureTransferSpi/test/waveform.vcd"
+[dumpfile_mtime] "Thu May  1 14:49:52 2025"
+[dumpfile_size] 36966
+[savefile] "/home/tobi/workspace/blobDetector/modules/featureTransferSpi/test/featureTransferSpi.gtkw"
+[timestart] 1566
+[size] 1920 1033
+[pos] -1 -1
+*-1.500000 1577 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_featureTransferSpi.
+[treeopen] tb_featureTransferSpi.ft.
+[sst_width] 297
+[signals_width] 403
+[sst_expanded] 1
+[sst_vpaned_height] 304
+@420
+tb_featureTransferSpi.FEATURE_WIDTH
+tb_featureTransferSpi.NUM_BITS_X
+tb_featureTransferSpi.NUM_BITS_Y
+@28
+tb_featureTransferSpi.reset
+tb_featureTransferSpi.pixClock
+tb_featureTransferSpi.vSync
+tb_featureTransferSpi.featureValid
+@22
+tb_featureTransferSpi.featureVecCamDomain[15:0]
+@28
+tb_featureTransferSpi.featureValid
+@200
+-
+@28
+tb_featureTransferSpi.sysClock
+tb_featureTransferSpi.spiSck
+tb_featureTransferSpi.spiMosi
+tb_featureTransferSpi.spiMiso
+tb_featureTransferSpi.spiTransferDone
+@200
+-
+@2024
+^1 /home/tobi/workspace/blobDetector/modules/featureTransferSpi/test/fsmStateEnum.gtkw
+tb_featureTransferSpi.ft.fsmState[3:0]
+@200
+-
+@28
+tb_featureTransferSpi.ft.bytesRemaining
+tb_featureTransferSpi.ft.featuresRemaining
+tb_featureTransferSpi.ft.txByteCount[1:0]
+@22
+tb_featureTransferSpi.ft.featureVector[15:0]
+@200
+-
+@22
+tb_featureTransferSpi.ft.dataLength[3:0]
+tb_featureTransferSpi.ft.bufferReadAddress[4:0]
+tb_featureTransferSpi.ft.featureVectorSystemDomain[15:0]
+tb_featureTransferSpi.ft.paddedFeatureVector[15:0]
+@28
+tb_featureTransferSpi.ft.featureBuffer.switchBuffer
+@c00200
+-tb_featureTransferSpi.ft.FEATURE_WIDTH
+@1401200
+-group_end
+@200
+-
+@28
+tb_featureTransferSpi.ft.newData
+@200
+-
+@28
+tb_featureTransferSpi.ft.spiTxReady
+@200
+-
+@28
+tb_featureTransferSpi.ft.spiTxDataValid
+@22
+tb_featureTransferSpi.ft.spiTxData[7:0]
+@28
+tb_featureTransferSpi.ft.txByteCount[1:0]
+@200
+-
+@29
+tb_featureTransferSpi.ft.spiRxDataValid
+@22
+tb_featureTransferSpi.ft.spiRxData[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

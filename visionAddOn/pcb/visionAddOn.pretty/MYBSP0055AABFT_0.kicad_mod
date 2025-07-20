@@ -1,0 +1,281 @@
+(footprint "MYBSP0055AABFT_0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Isolated PoE Module DC DC Converter Output 5V - 5.1A 37V - 57V Input")
+	(property "Reference" "REF**"
+		(at -15.6 -11.125 0)
+		(layer "F.SilkS")
+		(uuid "0de74e23-c556-4735-98e1-8dfb78aeba5e")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MYBSP0055AABFT_0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "92f91c36-6650-4d65-b205-1e8d8089f323")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a25ff50b-0894-4d5c-b6ca-ffd3f1a8b2da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56283247-3835-4286-9c84-d6f9833fb7b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0f35c2d-b282-4dd6-b5b5-d0a4107108ef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -19.05 -10.25)
+		(end 16.95 -10.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f75d0b1d-58af-4f3f-a139-ca531cd11113")
+	)
+	(fp_line
+		(start -19.05 12.65)
+		(end -19.05 -10.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a89eefa6-1fd9-4df8-99f5-468d8373e9c8")
+	)
+	(fp_line
+		(start -19.05 12.65)
+		(end 16.95 12.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "068f2f1f-b89d-438c-bc45-e38c2431c4be")
+	)
+	(fp_line
+		(start 16.95 12.65)
+		(end 16.95 -10.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "66afadef-16c7-4d69-aef0-3e69674efd13")
+	)
+	(fp_circle
+		(center -19.5 -6.345)
+		(end -19.25 -6.345)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "47e3f3d1-e5ce-4cad-b7b9-7fe5cd454a4b")
+	)
+	(fp_line
+		(start -19.15 -10.35)
+		(end 17.05 -10.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ae7c0e4d-ecce-402f-8b73-1311a9d6f454")
+	)
+	(fp_line
+		(start -19.15 12.75)
+		(end -19.15 -10.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d967c3d6-61e2-438f-bbf7-4ff5325a6065")
+	)
+	(fp_line
+		(start 17.05 -10.35)
+		(end 17.05 12.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "27be8432-3eb9-4b74-bc56-159860b627ae")
+	)
+	(fp_line
+		(start 17.05 12.75)
+		(end -19.15 12.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "03b78572-55ee-45e7-9582-34a2f259270a")
+	)
+	(fp_poly
+		(pts
+			(xy 4.7 -10) (xy 8.7 -10) (xy 8.7 12.4) (xy 4.7 12.4)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "a22b5e16-43bc-43c3-8863-280afca2a8ab")
+	)
+	(fp_poly
+		(pts
+			(xy 4.7 -10) (xy 8.7 -10) (xy 8.7 12.4) (xy 4.7 12.4)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.CrtYd")
+		(uuid "617f11de-ff2b-443f-850b-b37b261c831c")
+	)
+	(fp_line
+		(start -19.05 -10.25)
+		(end 16.95 -10.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03cd819d-b0d3-4b80-803f-17462d093bf3")
+	)
+	(fp_line
+		(start -19.05 12.65)
+		(end -19.05 -10.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3714b317-ac44-42d8-a3ca-e832091853c8")
+	)
+	(fp_line
+		(start 16.95 -10.25)
+		(end 16.95 12.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2624620b-74f8-47b5-bc5f-cd6481e4dbb3")
+	)
+	(fp_line
+		(start 16.95 12.65)
+		(end -19.05 12.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2eb7944d-cb8a-490a-9fe4-2c3ca9eca8f7")
+	)
+	(pad "1" smd oval
+		(at -16.27 -6.42)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "a90d64a7-7990-407a-abbf-ec968344d58a")
+	)
+	(pad "2" smd oval
+		(at -16.27 -0.18)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "0b82e3c3-2913-4128-abfe-bbf201b81f42")
+	)
+	(pad "3" smd oval
+		(at -16.27 2.82)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d612900f-4009-4133-be89-10d588c7ba90")
+	)
+	(pad "4" smd oval
+		(at -16.27 5.82)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d0f027e4-c719-4fe3-b88c-f3897ca3538f")
+	)
+	(pad "5" smd oval
+		(at -16.27 8.82)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "7ff3be6f-15ff-410b-bb69-a75f7d8814ae")
+	)
+	(pad "6" smd oval
+		(at 14.17 5.01)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b016a15d-192a-49bc-8708-5f44bfb34ee5")
+	)
+	(pad "7" smd oval
+		(at 14.17 -6.42)
+		(size 2.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9bf3c218-0d64-4d02-9120-09102b008a3b")
+	)
+	(model "${KIPRJMOD}/3DModels/MYBSP0055AABFT--3DModel-STEP-387902.STEP"
+		(offset
+			(xyz -1 -1.2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

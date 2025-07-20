@@ -1,0 +1,8 @@
+The or1420 implements a very small set of sprs that are not compliant with the or1k specifications:
+0x0000 reset vector (read-only)
+0x0001 icache-error vector
+0x0002 dcache-error vector
+0x0003 irq-vector
+0x0004 invalid instruction vector
+0x0005 system request vector
+0x0012 exception cause vector (read-only)

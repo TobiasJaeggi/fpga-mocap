@@ -1,0 +1,30 @@
+When using this module over the custom interface register A contains data, and register B contains the function index.
+Following is the list of registers/functions implemented (r means can be read, w means can be written):
+index:  Mode: Explanation:
+  0      r    Contains all the settings related to the manufacturing code of the flash
+  1      r    Contains all the values related to the type of memory connected to the SPI interface
+  2      r    Contains all the values related to the capacity of memory connected to the SPI interface
+  3      r    Contains the status register 0 of the attached SPI-flash
+  4      r    Contains the status register 1 of the attached SPI-flash
+  5      r    Contains the status register 2 of the attached SPI-flash
+  6      r    Address where to program/erase in the attached SPI-flash
+  7      r    Busy bit (0), Write error bit (1), Erase error bit (2)
+  7       w   Start a write cycle (0), Start an erase cycle (1)
+  8      r    Data 1 to be programmed to flash
+  9      r    Data 2 to be programmed to flash
+ 10      r    Data 3 to be programmed to flash
+ 11      r    Data 4 to be programmed to flash
+ 12      r    Data 5 to be programmed to flash
+ 13      r    Data 6 to be programmed to flash
+ 14      r    Data 7 to be programmed to flash
+ 15      r    Data 8 to be programmed to flash
+ 22       w   Address where to program/erase in the attached SPI-flash
+ 24       w   Data 1 to be programmed to flash
+ 25       w   Data 2 to be programmed to flash
+ 26       w   Data 3 to be programmed to flash
+ 27       w   Data 4 to be programmed to flash
+ 28       w   Data 5 to be programmed to flash
+ 29       w   Data 6 to be programmed to flash
+ 30       w   Data 7 to be programmed to flash
+ 31       w   Data 8 to be programmed to flash
+

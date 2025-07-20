@@ -1,0 +1,19 @@
+#ifndef VISIONADDON_APP_FPGACOMMANDER_FPGACOMMANDERTYPES_H
+#define VISIONADDON_APP_FPGACOMMANDER_FPGACOMMANDERTYPES_H
+
+#include <cstdint>
+
+enum PipelineInput : uint8_t
+{
+    CAMERA = 0,
+    FAKE_STATIC = 1,
+    FAKE_MOVING = 2,
+};
+
+enum PipelineOutput : uint8_t
+{
+    UNPROCESSED = 0,
+    BINARIZED = 1,
+};
+
+#endif // VISIONADDON_APP_FPGACOMMANDER_FPGACOMMANDERTYPES_H

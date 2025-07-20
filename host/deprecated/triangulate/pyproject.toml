@@ -1,0 +1,15 @@
+[project]
+name = "camera-calibration"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docopt>=0.6.2",
+    "matplotlib>=3.9.3",
+    "opencv-python>=4.10.0.84",
+    "pillow>=11.0.0",
+    "pyqt6>=6.7.1",
+    "ruff>=0.7.4",
+    "scikit-image>=0.24.0",
+]

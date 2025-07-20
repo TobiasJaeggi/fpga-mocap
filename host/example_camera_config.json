@@ -1,0 +1,37 @@
+{
+    "10.0.0.10": {
+        "fps": 72,
+        "exposure": 100,
+        "gain": 31,
+        "threshold": 30,
+        "light": true
+    },
+    "10.0.0.11": {
+        "fps": 72,
+        "exposure": 100,
+        "gain": 31,
+        "threshold": 30,
+        "light": true
+    },
+    "10.0.0.12": {
+        "fps": 72,
+        "exposure": 100,
+        "gain": 31,
+        "threshold": 30,
+        "light": true
+    },
+    "10.0.0.14": {
+        "fps": 72,
+        "exposure": 100,
+        "gain": 31,
+        "threshold": 30,
+        "light": true
+    },
+    "10.0.0.15": {
+        "fps": 72,
+        "exposure": 100,
+        "gain": 31,
+        "threshold": 30,
+        "light": true
+    }
+}

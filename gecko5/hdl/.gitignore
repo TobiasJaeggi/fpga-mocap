@@ -1,0 +1,36 @@
+# build/sythesize artefacts
+**/sandbox/
+**/build-release/
+
+# testing
+**/test/obj_dir/
+**/test/work/
+**/test/*.vcd
+**/test/*.wlf
+**/test/transcript
+
+# python
+.venv
+
+# module specific
+modules/ov7670Fake/tools/testimage*.png
+modules/ov7670Fake/tools/testimage*.rgb565
+
+# tool artefacts
+tools/cameraCalibration/calib/*
+tools/testscene/out/calib/*
+tools/testscene/out/views/*
+
+# Makefile
+*.stamp.*
+
+# Modelsim
+*.cr.mti
+*.bak
+
+# Icarus Verilog
+*.vvp
+*.out
+
+# sim output
+*.mpf

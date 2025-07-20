@@ -1,0 +1,10 @@
+#ifndef PRINTF_CONFIG_H_INCLUDED
+#define PRINTF_CONFIG_H_INCLUDED
+
+// Comment/uncomment the following lines according to your needs
+#define PRINTF_DISABLE_SUPPORT_FLOAT
+#define PRINTF_DISABLE_SUPPORT_EXPONENTIAL
+// #define PRINTF_DISABLE_SUPPORT_LONG_LONG
+#define PRINTF_DISABLE_SUPPORT_PTRDIFF_T
+
+#endif /* PRINTF_CONFIG_H_INCLUDED */

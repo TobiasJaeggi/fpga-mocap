@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "njpwerner.autodocstring",
+        "charliermarsh.ruff",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "streetsidesoftware.code-spell-checker"
+    ]
+}

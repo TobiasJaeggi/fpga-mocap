@@ -1,0 +1,2 @@
+To compile this utility:
+gcc -O2 -o ../bin/biosgen8k biosgen8k.c read_elf.c
