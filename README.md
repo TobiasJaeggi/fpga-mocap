@@ -1,6 +1,6 @@
 # FPGA-based low-cost motion capture
 Infrared-based motion capture.
-Image processing is done the [GECKO5Education](https://github.com/logisim-evolution/GECKO5Education), an educational FPGA platform.
+Image processing is done the [GECKO5Modular](https://github.com/logisim-evolution/GECKO5Education) (formerly GECKO5Education V2.0), an educational FPGA platform.
 I created this system as part of masters degree in electrical engineering at Bern University of Applied Sciences (BFH).
 
 > [!NOTE]
